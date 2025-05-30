@@ -51,6 +51,9 @@ const updateFlag = (element) => {
 
 btn.addEventListener("click", (evt) => {
   evt.preventDefault();
+  let amount = document.querySelector(".amount  input");
+  let amtVal = amount.value;
+  console.log(amtval);
   updateExchangeRate();
 });
 
